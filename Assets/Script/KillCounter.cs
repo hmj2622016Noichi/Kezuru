@@ -4,10 +4,8 @@ using TMPro;
 public class KillCounter : MonoBehaviour
 {
 	public static KillCounter Instance;
-
-	public TMP_Text countText;
 	private int killCount = 0;
-
+	public TMP_Text countText;
 	private void Awake()
 	{
 		Instance = this;
