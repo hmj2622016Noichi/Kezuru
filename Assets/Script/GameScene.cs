@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
+//3ïbå„Ç…ÉQÅ[ÉÄÇ…ñﬂÇÈ
 public class GameOverTimer : MonoBehaviour
 {
 	private void Start()

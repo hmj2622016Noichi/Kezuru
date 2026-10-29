@@ -11,13 +11,13 @@ public class KillCounter : MonoBehaviour
 		Instance = this;
 		UpdateText();
 	}
-
+	//+1
 	public void AddKill()
 	{
 		killCount++;
 		UpdateText();
 	}
-
+	//çÌÇÈ
 	private void UpdateText()
 	{
 		if (countText != null)

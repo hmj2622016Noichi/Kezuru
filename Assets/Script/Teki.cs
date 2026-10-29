@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-
 public class Ammo : MonoBehaviour
 {
 	public GameObject bulletPrefab;
@@ -11,7 +10,7 @@ public class Ammo : MonoBehaviour
 	{
 		StartCoroutine(AutoFire());
 	}
-	//ƒ‰ƒ“ƒ_ƒ€”­ŽË
+	//2•b‚©3•b‚ÌŠÔŠu‚Å’e”­ŽË
 	private IEnumerator AutoFire()
 	{
 		while (true)
